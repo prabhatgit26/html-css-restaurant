@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India Restaurant | Home Page</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <style>
+        #image1{
+            position: absolute;
+            z-index: -1;
+            opacity: 1;
+    
+        }
+        #img16{
+            border: 3px solid rgb(120, 0, 0);
+
+        }
+        #img16:hover{
+            height: 470px;
+            
+            
+        }
+        #img16 div:hover{
+          -ms-zoom-animation: default;
+        }
+        
+        #home:hover{
+            color: blue;
+        }
+        #home1:hover{
+            background-color: rgb(218, 73, 0);
+        }
+        #home2:hover{
+            background-color: rgb(236, 236, 0);
+            color: rgb(0, 13, 156);
+        }
+        .form-control{
+          background-color: rgb(241, 241, 241);
+        }
+
+    </style>
+</head>
+<body >
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid" style="background-color: rgb(251, 84, 0);">
+          <a class="navbar-brand" href="#"><img src="Images/restaurantlogo.png" alt="logo" style="height: 160px; margin-left: 100px;"></a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 250px;">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a id="home" class="nav-link active" aria-current="page" href="restaurant.html" target="_blank"><b style="color: white;padding-left: 15px;">Home</b></a>
+              </li>
+             
+              <li class="nav-item">
+                <a id="home" class="nav-link active" aria-current="page" href="gallery.html" target="_blank"><b style="color: white;padding-left: 20px;">Gallery</b></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a id="home" class="nav-link active" href="menu.html" target="_blank"><b style="color: rgb(255, 255, 255);padding-left: 25px;">Menu</b>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a id="home" class="nav-link active" aria-current="page" href="aboutus.html" target="_blank"><b style="color: white;padding-left: 15px;">About Us</b></a>
+              </li>
+              <li class="nav-item">
+                <a id="home" class="nav-link active" aria-current="page" href="contact.html" target="_blank"><b style="color: white;padding-left: 15px;">Contact Us</b></a>
+              </li>
+             
+            <form class="d-flex" role="search" style="margin-left: 170px;">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="width:200px;height: 40px;">
+              <button id="home2" class="btn btn-outline-success" type="submit" style="height: max-content; background-color: rgb(255, 255, 255); ">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- slider -->
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Images/food1.jpg" class="d-block w-100" alt="food" style="height: 500px;width: 700px; position: relative;">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="font-size: 50px;">Indian Food</h5>
+              <p style="font-size: 30px;">When Flavours meet Passion, Magic happens.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Images/food4.jpg" class="d-block w-100" alt="..." style="height: 500px;width: 700px;">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="font-size: 50px;">Fruits and Veges</h5>
+              <p style="font-size: 30px;">Our dishes will soothe your eyes, nourish your palate and gratify your soul</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Images/food3.jpg" class="d-block w-100" alt="..." style="height: 500px;width: 700px;">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="font-size: 50px;">Italian Foodie</h5>
+              <p style="font-size: 30px;">Fascinating Food + Admirable Ambience + Significant Staff = India Restaurant</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <br>
+      <!-- Grid -->
+      <div class="container text-center" style="margin-top: 50px; padding: 0px; ">
+        <div class="row" style="border: 1px dashed blue;">
+          <div class="col-12 col-sm-6 col-md-3 col-lg-6">
+            <div style="height: 500px;padding: 10px;">
+                <center>
+                    <h6 style="color: rgb(222, 159, 0); font-family:Georgia, 'Times New Roman', Times, serif">Welcome To</h6>
+                    <h3 style="color: rgb(195, 68, 0);"><pre>꧁  India Restaurant  ꧂</pre></h3>
+                    <h6>↫.  .   .   .  .   .   .  .   .   .  .  .   .   .  .   .   .  .   .   .↬</h6>
+                </center>
+                <br>
+                <div style="height: 420px; padding: 20px; font-size: larger; color: rgb(114, 114, 114);" >
+                       
+                    <p>India Restaurant has been serving delightful experiences through the art of cooking for four decades. A cozy, relaxing space combined with flavourful dishes makes it a first choice for every foodie in town. It provides a wide range of items to choose from and lets everyone indulge in an experience of pleasing their taste buds.</p>
+                    <p>We provides a wide range of cuisines and dishes to choose from so that every foodie in town has their best experience here.</p>
+                    <p>We are known to be the best Mughlai eatery in Kolkata. We have always won the hearts of our customers with appetizing dishes and friendly behaviour. It is the best choice for everyone who wants to enjoy the best quality food at reasonable prices.India Restaurant has been serving delightful experiences.</p>
+                    
+                </div>
+                
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 col-lg-6">
+            <div class="banner__img" data-aos="fade-left">
+                <img src="Images/food12.jpg" alt="banner" class="img-fluid" style="height: 550px; width: 550px; margin-left: 00px;">
+            </div>
+          </div>
+        </div>
+
+        <br><br><br>
+
+        <div class="container text-center" style="height: 600px; border: 1px dashed rgb(0, 25, 109);padding: 0px;">
+            <div class="row">
+              <div class="col">
+                <img src="Images/food11.jpg" alt="banner" style="height: 550px;width: 550px;">
+              </div>
+              <div class="col">
+                <div class="col-12 col-sm-6 col-md-3 col-lg-6">
+                        <center style="width: 600px;margin-left: 50px;"> 
+                            <h3 style="color: rgb(195, 68, 0);"><pre>꧁  India Restaurant  ꧂</pre></h3>
+                            <h6 style="color: rgb(222, 159, 0); font-family:Verdana, Geneva, Tahoma, sans-serif">Serve You The Best</h6>
+                            <h6>↫.  .   .   .  .   .   .  .   .   .  .  .   .   .  .   .   .  .   .   .↬</h6>
+                        </center>
+                        <center  style="width: 470px; margin-left: 80px;">
+                            <div style="margin-left: 50px;height: 100px;width: 300px; padding: 5px; font-size: larger; color: rgb(114, 114, 114);" >
+                               
+                                <p>Food is the key element for every human being for the survival on the earth but not every food is that much tasty or applicable for all ages of people. Besides, preparation of the foods is also another issue for consideration. In my city, Mumbai, I have a favourite restaurant that offers different types of prepared food.</p>
+                                <p>Foodies welcome here.
+                                    Something hot. Something tasty.
+                                    Good food. Good mood.
+                                    You're in good hands with us.
+                                    Hundreds of flavors under one roof.</p>                                 
+                            </div>
+                        </center>    
+                    </div>
+              </div>
+      </div>
+      <br><br><br>
+      <center>
+        <img id="image1" src="Images/food19.jpg" alt="h" style="height: 400px;width: 1308px;;border: 1px solid white;"> 
+          <marquee behavior="" direction="right" >
+            <center style="font-size: 65px;color: rgb(255, 255, 255);">   
+              <p style="font-family:Arial, Helvetica, sans-serif;margin-left: 500px;margin-top: 20px;padding-right: 10px; padding: 20px;" >India Restaurant
+              </p>
+              
+            </center>
+          </marquee>
+          
+           <div style="margin-top: 100px;">
+            <h6 style="color: rgb(255, 255, 255); font-size: 25px; margin-left: 450px; font-family:Arial, Helvetica, sans-serif; padding: 0px;"> We Create Delicious Memories.</h6>
+          <p style="color: rgb(255, 255, 255); font-size: 42px; margin-left: 450px; font-family:serif; padding-top: 0px; font-weight: 800;">
+            You Love Food And We Love To Serve You.
+          </p>
+           </div>
+      </center>
+      <!-- <center>
+        <div>
+          <img src="Images/Screenshot 2024-05-17 135509.png" alt="" style="margin-right: 400px;">
+        </div>
+      </center> -->
+      <center style="margin-top: 100px;">
+        <div>
+          <h6 style="color: rgb(181, 115, 0);">India Restaurant</h6>  
+          <h3 style="font-size: 46px; font-family: 'Times New Roman', Times, serif;">Our Speciality</h3>
+          <h6>↫.  .   .   .  .   .   .  .   .   .  .  .   .   .  .   .   .  .   .   .↬</h6>
+          <p style="height: 420px; padding: 20px; font-size: larger; color: rgb(114, 114, 114);">
+            We provide a wide range of cuisines and dishes to choose from so that every foodie in <br> town has their best experience with us.
+          </p>
+
+        </div>
+      </center>
+      <div style="margin-top: -290px;">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col" >
+              <img id="img16" src="Images/foodd16.jpg" alt="" >
+              <h3 style="margin-top: 20px;">Italian</h3>
+            </div>
+            <div class="col" >
+              <img id="img16" src="Images/food17.jpg" alt="" >  
+              <h3 style="margin-top: 20px;">Indian</h3>           
+            </div>
+            <div class="col">
+              <img id="img16" src="Images/food18.jpg" alt="" >
+              <h3 style="margin-top: 20px;">Chinese</h3>  
+            </div>
+          </div>
+        </div>
+      </div>
+        <!-- jsjgjsg -->
+        <center style="margin-top: 100px;">
+          <div>
+            <h6 style="color: rgb(181, 115, 0);">Book Your Table</h6>  
+            <h3 style="font-size: 46px; font-family: 'Times New Roman', Times, serif;">Make A Reservation</h3>
+            <h6>↫.  .   .   .  .   .   .  .   .   .  .  .   .   .  .   .   .  .   .   .↬</h6>
+            <p style="height: 420px; padding: 20px; font-size: larger; color: rgb(114, 114, 114);">
+              You can book your table online easily in just a couple of minutes.<br> We take reservations for lunch, just check the availability of your table.
+            </p>
+          </div>
+        </center>
+        <div style="border: 5px double rgb(255, 145, 0); padding: 70px; margin-top: -320px;">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+              <form action="assets/email-php/home_footer.php" class="reservation__form" method="POST">
+                <div class="row">
+  
+                  <div class="col-sm-6 col-md-4 col-lg-4">
+                    <div class="form-group" >
+                      <input type="text" class="form-control" name="name" placeholder="Your Name">
+                    </div>
+                  </div><!-- /.col-lg-4 -->
+                  <div class="col-sm-6 col-md-4 col-lg-4">
+                    <div class="form-group">
+                      <input type="text" class="form-control" name="email" required placeholder="Email">
+                    </div>
+                  </div><!-- /.col-lg-4 -->
+                  <div class="col-sm-6 col-md-4 col-lg-4">
+                    <div class="form-group">
+                      <input type="text" class="form-control" name="phone" required placeholder="Phone Number">
+                    </div>
+                  </div><!-- /.col-lg-4 -->
+  
+                  <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div class="form-group mb-30"><textarea class="form-control" name="message"
+                        placeholder="Message" style="margin-top: 50px;"></textarea></div>
+                  </div><!-- /.col-lg-12 -->
+  
+  
+                  <div class="col-sm-12 col-md-12 col-lg-12">
+                    <button type="submit" name="submit" class="btn btn__secondary btn__block" style="background-color: rgb(0, 0, 0); color: white; margin-top: 50px; width:100%; font-family:monospace;">Find A Table</button>
+                  </div><!-- /.col-lg-12 -->
+                </div><!-- /.row -->
+              </form>
+            </div><!-- /.col-lg-8 -->
+          </div><!-- /.row -->
+        </div>
+
+        <div style="margin-top: 100px;">
+            
+          <h3 style="font-size: 46px; font-family: 'Times New Roman', Times, serif;">Excellence</h3>
+          <h6>↫.  .   .   .  .   .   .  .   .   .  .  .   .   .  .   .   .  .   .   .↬</h6>
+          <p style="height: 420px; padding: 20px; font-size: larger; color: rgb(114, 114, 114);">
+            We are blessed enough to be honoured with great awards from <br> food critics and organizations all over the world.
+          </p>
+          <pre style="color: rgb(216, 108, 0); margin-top: -300px; font-size: 25px; font-family:cursive;">  Order Now  </pre>
+        </div>
+      </center>
+
+      <center>
+        <div style=" padding: 10px; border: 3px dashed green;">
+          <img src="Images/Zomato-Logo.jpg" alt="logo" style="width: 200px; ">
+          <img src="Images/swiggy.png" alt="" style="width: 250px; margin-left: 100px;">
+          <img src="Images/dineout.png" alt="" style="width: 250px;  margin-left: 100px;">
+        </div>
+      </center>
+
+      <div style="background-color: rgb(46, 46, 46); margin-top: 130px; height: 900px;">
+        <div class="container text-center" style="margin-left: 100px;">
+          <div class="row row-cols-4">
+            <div class="col-sm-12 col-md-12 col-lg-3">
+              <img src="Images/restaurantlogo.png" alt="logo" class="footer__logo mb-20" style="height: 160px; margin-left: 10px;">
+              <p class="mx-2 mb-20" style="color: white; text-align: center; font-size: 20px;">India Restaurant is known for <br> creating unforgettable food<br> experiences. We believe that <br>food is therapy and try to put<br> up a smile on your face with<br> our culinary skills.
+              </p>
+
+              <ul class="social__icons social__icons-white justify-content-center">
+                <li><a target="_blank" href="https://instagram.com/indiarestaurantkolkata?utm_medium=copy_link"><i
+                      class="fa fa-instagram"></i></a></li>
+                <li><a target="_blank" href="https://www.facebook.com/IndiaRestaurantKolkata/"><i
+                      class="fa fa-facebook"></i></a></li>
+                <li><a target="_blank" href="https://twitter.com/indrestaurant?s=21"><i class="fa fa-twitter"></i></a>
+                </li>
+              </ul><!-- /.social__icons -->
+            </div><!-- /.col-lg-4 -->
+            <div class=" col-sm-12 col-md-12 col-lg-3" style="margin-top: 80px; margin-left: 50px;">
+              <div class="contact-box">
+                <h6 class="contact__box-title" style="color: white; font-size: larger;">Our Addresses</h6>
+                <ul class="contact__box-list list-unstyled" style="margin-top: 50px;">
+                  <li style="    margin-bottom: 15px;"> <a target="_blank"
+                      href="https://www.google.com/maps/place/India+Restaurant/data=!3m1!4b1!4m2!3m1!1s0x3a0279e0654e059b:0x59e8470a26b6cdce" style="color: white; font-size: larger; text-decoration: none;">07,
+                      Cant Road, Trent Square, Mumbai</a></li>
+                  <li> <a target="_blank" href="https://goo.gl/maps/tLUmZnDWZRMDPUBN8" style="color: white; font-size: larger;text-decoration: none;">
+                      26, Diamond Apartment Avenue <br>
+                      Kaikhali Crossing,<br> Indore - 452001</a></li>
+                </ul>
+
+                <!-- <a target="_blank"
+                  href="https://www.google.com/maps/place/India+Restaurant/data=!3m1!4b1!4m2!3m1!1s0x3a0279e0654e059b:0x59e8470a26b6cdce"
+                  class="btn btn__primary btn__hover2 btn__link">View On Map</a> -->
+              </div><!-- /.contact-box -->
+            </div><!-- /.col-lg-4 -->
+            <div class="col-sm-12 col-md-12 col-lg-3" style="margin-top: 80px; margin-left: 50px;">
+              <div class="contact-box mb-0">
+                <h6 class="contact__box-title" style="color: white; font-size: larger;">Business Hours</h6>
+                <ul class="contact__box-list list-unstyled" style="margin-top: 40px; color: white; font-size: larger;">
+                  <li><span>Mon:</span> 11:00 AM – 11:00 PM</li>
+                  <li><span>Tue:</span> 11:00 AM – 11:00 PM</li>
+                  <li><span>Wed:</span> 11:00 AM – 11:00 PM</li>
+                  <li><span>Thu:</span> 11:00 AM – 11:00 PM</li>
+                  <li><span>Fri:</span> 11:00 AM – 11:00 PM</li>
+                  <li><span>Sat:</span> 11:00 AM – 11:00 PM</li>
+                  <li><span>Sun:</span> 11:00 AM – 11:00 PM</li>
+                </ul>
+              </div><!-- /.contact-box -->
+            </div><!-- /.col-lg-4 -->
+            <center>
+              <div class="col-sm-12 col-md-12 col-lg-3" style="margin-top: 10px; margin-left: 130px;">
+                <div style="width: 1310px; margin-left: -300px;">
+                  <h6 style="color: white;font-size: larger;">Contact Us -
+                    <a href="tel:+918481848484" style="color: white; margin-left: 20px; text-decoration: none;"> <i class="fa fa-phone"></i> +91 8481848484</a><a href="tel:+919903980011" style="color: white;margin-left: 20px;text-decoration: none;"><i class="fa fa-phone"></i> +91 99039 80011</a> <a href="tel:+918420533005" style="color: white;margin-left: 20px;text-decoration: none;"> <i class="fa fa-phone"></i> +91 8420533005</a> <a href="tel:+03348049142 " style="color: white;margin-left: 20px;text-decoration: none;"> <i class="fa fa-phone"></i> +033 4804 9142 </a>
+                   </h6>
+                </div>
+            </div>
+            </center>
+            <center>
+              <div style="margin-top: 100px; margin-left: -50px; width: 520px;"> 
+                
+                <h3 style="font-size: 15px;color: rgb(252, 193, 0); font-family:Verdana, Geneva, Tahoma, sans-serif ;margin-bottom: 30px;">Follow Us On Our Social Network :</h3>
+                
+                <a href="https://web.whatsapp.com/"; target="_blank"> <img src="Images/wp1.png"alt="Whatsapp" height="43px" width=43px; style="margin-left:0px; text-decoration: none;"></a>
+
+                <a href="http://Instgram.com"; target="_blank"> <img src="Images/pngegg (1).png" alt="Instgram"; height="43px" width=43px; style="margin-left: 30px;text-decoration: none;">
+                </a>
+                
+                <a href="https://www.youtube.com/?gl=IN"; target="_blank"> <img src="Images/youtube1.png" alt="youtube"; height="53px" width=53px; style="margin-left: 40px;text-decoration: none;">
+                </a>
+               
+                <a href="https://www.facebook.com/login/"; target="_blank"><img src="Images/fab1.png" alt="facebook"; height="43px" width=43px; style="margin-left: 50px;text-decoration: none;">
+                </a>
+                <!-- <a href="https://twitter.com/?lang=en"; target="_blank"><img src="Images/twitter.png" alt="twitter"; height="30px" width=30px; style="margin-left: 60px;">
+                </a> -->
+                
+            </div>
+            </center>
+            <br><br><br>
+            <center>
+              <div style="margin-top: 250px; width: 520px; margin-left: -550px;">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                  <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a id="home" class="nav-link active" aria-current="page" href="restaurant.html" target="_blank"><b style="color: rgb(0, 0, 0);padding-left: 15px;">Home</b></a>
+                        </li>
+                       
+                        <li class="nav-item">
+                          <a id="home" class="nav-link active" aria-current="page" href="gallery.html" target="_blank"><b style="color: rgb(0, 0, 0);padding-left: 20px;">Gallery</b></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a id="home" class="nav-link active" href="menu.html" target="_blank"><b style="color: rgb(0, 0, 0);padding-left: 25px;">Menu</b>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a id="home" class="nav-link active" aria-current="page" href="aboutus.html" target="_blank"><b style="color: rgb(0, 0, 0);padding-left: 15px;">About Us</b></a>
+                        </li>
+                        <li class="nav-item">
+                          <a id="home" class="nav-link active" aria-current="page" href="contact.html" target="_blank"><b style="color: rgb(0, 0, 0);padding-left: 15px;">Contact Us</b></a>
+                        </li>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+            </center>
+            <center>
+              <div class="footer__copyright" style="margin-top: 400px; width: 1000px;margin-left: -1220px;">
+                <pre style="color: rgb(171, 171, 171); font-size: 17px;"> 1994 India Restaurant. | All Rights Reserved.</pre>
+              </div>
+            </center>
+
+      
+      
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
