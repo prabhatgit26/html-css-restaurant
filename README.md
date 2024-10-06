@@ -16,7 +16,13 @@ This project demonstrates my foundational skills in front-end development and UI
 
 
 
-https://github.com/user-attachments/assets/d3492f88-4386-4148-aaf0-188b98e64660
+https://github.com/user-attachments/assets/0e030430-acc9-474a-9adc-0082a9b26b65
+
+https://github.com/user-attachments/assets/ede44fd4-80e8-490e-afcc-a238e3507981
+
+
+
+
 
 
 
